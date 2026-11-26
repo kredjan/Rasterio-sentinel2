@@ -8,7 +8,7 @@ Notebook ukazuje hlavní funkce knihovny **`rasterio`** (čtení metadat a geore
 
 Všechna vstupní data (**Sentinel-2 Level-2A** pro severní část Prahy) se načítají automaticky přes STAC API – není nutné nahrávat žádné vlastní soubory.
 
-## Obsah notebooku
+## Obsah 
 
 1. **Vyhledání scény a kontrola metadat** (`rasterio.open`, `crs`, `bounds`, `transform`)
 2. **Načtení výřezu a kalibrace pásem** (`Window`, `from_bounds`, převod na odrazivost)
